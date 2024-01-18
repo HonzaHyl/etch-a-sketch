@@ -1,0 +1,31 @@
+#container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 50px;
+    height: 500px;
+}
+
+.gridContainer {
+    outline: 2px solid black;
+    width: 500px;
+    height: 500px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons button {
+    padding: 30px, 10px;
+    margin: 15px 10px;
+    
+}
+
